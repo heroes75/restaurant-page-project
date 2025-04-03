@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+#content {
+    height: 90%;
+    justify-self: center;
+    align-self: center;
+    width: 70%;
+}
+#frame-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    background-color: rgb(207, 199, 35);
+}
+
+h1, #hours-container {
+    align-self: center;
+    width: 70%;
+    /* height: 10%; */
+    border-radius: 50% 20% / 10% 40%;
+    border: 7px solid green;
+}
+
+#testimony {
+    align-self: center;
+    width: 80%;
+    border-radius: 50% 20% / 10% 40%;
+    border: 7px solid green;
+}
+#author {
+    text-align: end;
+    padding-right: 10%;
+    font-weight: bold;
+}
