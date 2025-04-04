@@ -9,12 +9,36 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-}
+    background-color: transparent;
+    gap: 19px;
+    /* background-image: url(./images/13312339_v755-toon-05.jpg);
+ */}
+ header {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ nav {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 2.5em;
+ }
+ nav button {
+    padding: 23px 47px;
+    border-radius: 3ch;
+    background-color: beige;
+ }
+ nav button:hover {
+    background-color: rebeccapurple;
+ }
 #content {
     height: 90%;
     justify-self: center;
     align-self: center;
     width: 70%;
+    border-radius: 31px;
 }
 #frame-home {
     display: flex;
@@ -22,7 +46,7 @@ body {
     justify-content: space-evenly;
     height: 100%;
     background-color: rgb(207, 199, 35);
-
+    border-radius: 31px;
 }
 
 #tittle-container, #hours-container {
