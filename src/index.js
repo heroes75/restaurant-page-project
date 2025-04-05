@@ -1,6 +1,9 @@
 import  backgroundImages from "./images/13312339_v755-toon-05.jpg"; 
 import "./styles.css";
+import { writingHomepage } from "./homePage";
 
  
-console.log("sdasdad");
 document.body.style.backgroundImage = `url(${backgroundImages})`;
+
+writingHomepage()
+
