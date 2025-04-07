@@ -34,7 +34,6 @@ body {
     background-color: pink;
  }
 #content {
-    height: 90%;
     justify-self: center;
     align-self: center;
     width: 70%;
@@ -72,6 +71,16 @@ h1 {
     width: 80%;
     display: flex;
 }
+#location-container {
+    display: flex;
+    flex-direction: column;
+}
+#location-text:first-child, #location-text:last-child {
+    display: block;
+    width: 100%;
+    color: red;
+}
+
 .sub-container {
     clip-path: stroke-box;
 }
