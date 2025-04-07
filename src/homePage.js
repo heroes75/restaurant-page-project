@@ -31,7 +31,7 @@ export const writingHomepage = () => {
     locationText.setAttribute("id", "location-text");
     h1tittle.textContent = "Jisoo's Ice Cream Shop";
     tittlePresentation.textContent = "About Jisoo's Ice Cream Shop";
-    locationText.innerHTML = "<span>Location</span><span>good location</span>";
+    locationText.innerHTML = "<span>Location</span><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu cursus sapien, in mollis orci. Integer a aliquam magna, nec convallis diam. Vivamus in rutrum nulla. Praesent ac rutrum dolor. Aliquam finibus ut dui semper elementum. Suspendisse potenti. Sed in massa hendrerit, fringilla nisi nec, cursus felis. Donec eget risus non nisl blandit venenatis.</span>";
     textPresentation.innerHTML = "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus sagittis luctus. Integer pharetra dui ut turpis mollis consequat. Vivamus sed mauris facilisis, blandit nulla ut, venenatis tellus.<p> Suspendisse et pharetra odio. Vivamus quam ante, tincidunt ut venenatis eget, laoreet in lectus. In varius accumsan convallis. Aliquam vehicula, ex non semper vehicula, neque ex facilisis augue, quis commodo diam urna ac odio. </p><p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas commodo justo vel sapien tristique congue.</p>";
     document.querySelector("#content").appendChild(frameHome);
     frameHome.appendChild(tittleContainer);

@@ -2,6 +2,9 @@
     box-sizing: border-box;
     border: 1px solid red;
 }
+:root {
+    --var-padding-box: 19px;
+}
 html, body {
     height: 100%;
     margin: 0;
@@ -39,13 +42,14 @@ body {
     width: 70%;
     border-radius: 31px;
 }
-#frame-home {
+#frame-home, #frame-menu {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100%;
     background-color: rgb(0, 0, 0, 0.5);
     border-radius: 31px;
+    gap: 1rem;
 }
 
 #tittle-container, #hours-container {
@@ -65,20 +69,37 @@ body {
 h1 {
     text-align: center;
 }
-#testimony-container {
+#presentation-container {
     align-self: center;
     justify-self: center;
-    width: 80%;
-    display: flex;
+    width: 90%;
+    background-color: beige;
+    border-radius: 35px;
+    padding: var(--var-padding-box);
+}
+#tittle-presentation {
+    text-align: center;
+    color: blue;
+    margin-bottom: 0;
+}
+#text-presentation p {
+    /* text-align: center; */
+    margin: 0 auto;
 }
 #location-container {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
+    width: 90%;
+    border-radius: 25px;
+    padding: var(--var-padding-box);
+    background-color: beige;
 }
-#location-text:first-child, #location-text:last-child {
+span:first-child {
     display: block;
-    width: 100%;
-    color: red;
+    color: blue;
+    text-align: center;
+    margin: 5px auto;
+    font-weight: bold;
 }
 
 .sub-container {
