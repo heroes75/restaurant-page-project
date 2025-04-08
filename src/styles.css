@@ -1,9 +1,37 @@
+@font-face {
+    font-family: 'amaticbold';
+    src: url('./fonts/amatic-bold-webfont.woff2') format('woff2'),
+         url('./fonts/amatic-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'amatic_scregular';
+    src: url('./fonts/amaticsc-regular-webfont.woff2') format('woff2'),
+         url('./fonts/amaticsc-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pacificoregular';
+    src: url('./fonts/pacifico-webfont.woff2') format('woff2'),
+         url('./fonts/pacifico-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 * {
     box-sizing: border-box;
-    border: 1px solid red;
 }
 :root {
     --var-padding-box: 19px;
+    --var-width-image: 120px;
+    --var-height-image: 120px;
 }
 html, body {
     height: 100%;
@@ -39,10 +67,10 @@ body {
 #content {
     justify-self: center;
     align-self: center;
-    width: 70%;
+    width: clamp(500px, 50%, 900px);
     border-radius: 31px;
 }
-#frame-home, #frame-menu {
+#frame-home, #frame-menu, #frame-about {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,14 +78,14 @@ body {
     background-color: rgb(0, 0, 0, 0.5);
     border-radius: 31px;
     gap: 1rem;
+    padding-bottom: 7px;
 }
 
-#tittle-container, #hours-container {
+#tittle-container {
     align-self: center;
     justify-self: center;
     color: red;
     width: 70%;
-    /* height: 10%; */
     border-radius: 40px;
     border: 7px solid green;
     display: flex;
@@ -83,12 +111,9 @@ h1 {
     margin-bottom: 0;
 }
 #text-presentation p {
-    /* text-align: center; */
     margin: 0 auto;
 }
 #location-container {
-    /* display: flex;
-    flex-direction: column; */
     width: 90%;
     border-radius: 25px;
     padding: var(--var-padding-box);
@@ -100,20 +125,32 @@ span:first-child {
     text-align: center;
     margin: 5px auto;
     font-weight: bold;
+    font-family: 'pacificoregular', sans-serif;
+    font-size: 1.2rem;
 }
 
-.sub-container {
-    clip-path: stroke-box;
+.img {
+    width: var(--var-width-image);
+    height: var(--var-height-image);
+    border-radius: 50%
 }
-#testimony {
+#product1, #product2, #product3, #product4, .member  {
     align-self: center;
-    width: 100%;
+    width: 90%;
+    display: flex;
+    gap: 11px;
     border-radius: 40px;
-    /* clip-path: polygon(10% 0%, 90% 0, 100% 10%, 100% 90%, 90% 100%, 10% 100%, 0 90%, 0 10%); */
-    border: 7px solid green;
+    background-color: beige;
+    padding: 11px;
 }
-#author {
-    text-align: end;
-    padding-right: 10%;
-    font-weight: bold;
+.img-product, .members-image-container {
+    align-self: center;
+}
+
+#members-image0, #members-image2, #members-image3, #members-image4 {
+    aspect-ratio: 16 / 9;
+}
+.members-text-description {
+    font-family: "amaticbold", "sans-serif";
+    font-size: 1.3rem;
 }
