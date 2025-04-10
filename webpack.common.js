@@ -8,6 +8,7 @@ const path = require('path');
    plugins: [
      new HtmlWebpackPlugin({
         title: 'Production',
+        template: "./src/template.html",
      }),
    ],
    

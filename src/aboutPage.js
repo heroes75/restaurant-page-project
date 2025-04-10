@@ -36,7 +36,6 @@ export default function () {
         membersImageContainer.classList.add("members-image-container");
         membersImage.classList.add("img");
         membersImage.setAttribute("id", `members-image${i}`);
-        console.log(`members-image${i}`)
         membersImage.src = imagesMembers[i];
         membersDescription.classList.add("members-description");
         membersTextDescription.innerHTML = description[i];

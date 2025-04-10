@@ -59,7 +59,7 @@ export default function () {
     img3.src = iceCream3;
     img4.src = iceCream4;
     descriptionTextProduct1.innerHTML = "<span>Ice cream chillin'</span><span>A big Jisoo's Ice Cream made by Jisoo's Godness, for Jisoo's Queen. 'cause Jisoo loves big things, like big car, big house and ultra big man. Like Jisoo herself this ice cream can enjoy you. his sweet and delicious ice is made for you</span>"
-    descriptionTextProduct2.innerHTML = "<span>Second Ice cream chillin'</span><span>This second Ice Cream is made by Jisoo Godness 'cause she's love long thing also. this ice cream is made to to satisfy all your sensibility of your tongue and to have a filled full mouth long story short this Ice cream can never ever disapoint you</span>"
+    descriptionTextProduct2.innerHTML = "<span>Second Ice cream chillin'</span><span>This Second Ice cream chillin' is made by Jisoo Godness 'cause she's love long thing also. this ice cream is made to to satisfy all your sensibility of your tongue and to have a filled full mouth long story short this Ice cream can never ever disapoint you</span>"
     descriptionTextProduct3.innerHTML = "<span>Ice Cream Cone with Cherry</span><span>Like Jisoo likes cherry she always dreams to make cherry above something so she do it then Ice Cream Cone with Cherry appears. Jisoo get always she wants so she wants make you a pleasure with a ice cream you taste the 7th sky </span>"
     descriptionTextProduct4.innerHTML = "<span>Fantasy Ice Cream</span><span>this ice cream is made to give a taste of imagination of Jisoo for you. you find  deep love, sincerity and deep love. his smothered cream and good swwet chocolate feel you a wonder world</span>"
     document.querySelector("#content").appendChild(frameMenu);

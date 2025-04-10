@@ -21,6 +21,4 @@ document.querySelector("#about-button").addEventListener("click", (e) => {
     document.querySelector("#content").textContent = "";
     aboutPage()
 });
-//writingHomepage()
-menuPage()
-//aboutPage()
+writingHomepage()
